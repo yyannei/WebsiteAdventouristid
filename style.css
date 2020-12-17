@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(gambar/Background.JPG);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main {
+    max-width: 1700px;
+    margin: auto;
+}
+
+.main ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.main ul li {
+    display: inline-block;
+}
+
+.main ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+.main ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.halaman-home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.halaman-home h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.halaman-home p {
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.main1{
+    height: 80vh;
+    width: 70%;
+    background:  #13333B;
+    opacity: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+#satu{
+    color: white;
+    margin-top: 270px;
+    margin-right:50px;
+    margin-left: 360px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    letter-spacing: 1px;
+
+}
+#dua{
+    color:white;
+    margin-top: 470px;
+    margin-right: 30px;
+    margin-left: 390px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    letter-spacing: 1px;
+}
+#tiga{
+    color: white;
+    margin-top: 670px;
+    margin-right: 30px;
+    margin-left: 390px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    letter-spacing: 1px;
+}
+#empat{
+    color: white;
+    margin-top: 270px;
+    margin-right:50px;
+    margin-left: 625px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    letter-spacing: 1px;
+
+}
+#lima{
+    color:white;
+    margin-top: 470px;
+    margin-right: 30px;
+    margin-left: 630px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    letter-spacing: 1px;
+}
+#enam{
+    color: white;
+    margin-top: 670px;
+    margin-right: 30px;
+    margin-left: 640px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    letter-spacing: 1px;
+}
+#a{
+    color: white;
+    margin-top: 240px;
+    margin-right:350px;
+    margin-left: 650px;
+    padding-left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+#b{
+    color: white;
+    margin-top: 270px;
+    margin-right:400px;
+    margin-left: 650px;
+    padding-left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+.img{
+    height: 150px;
+    width: 150px;
+    background: url(gambar/img1.png)no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 200px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform:translate(-100%,-25%)
+}
+.img2{
+    height: 150px;
+    width: 150px;
+    background: url(gambar/img2.png)no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 200px;
+    position: absolute;
+    top: 42%;
+    left: 29%;
+    transform:translate(-100%,-25%)
+}
+
+
+.img3{
+    height: 150px;
+    width: 150px;
+    background: url(gambar/img3.png)no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 200px;
+    position: absolute;
+    top: 67%;
+    left: 29%;
+    transform:translate(-100%,-25%)
+}
+
+.img4{
+    height: 150px;
+    width: 150px;
+    background: url(gambar/img4.png)no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 200px;
+    position: absolute;
+    top: 18%;
+    left: 43%;
+    transform:translate(-100%,-25%)
+}
+.img5{
+    height: 150px;
+    width: 150px;
+    background: url(gambar/img5.png)no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 200px;
+    position: absolute;
+    top: 41.5%;
+    left: 43%;
+    transform:translate(-100%,-25%)
+}
+.img6{
+    height: 150px;
+    width: 150px;
+    background: url(gambar/img6.png)no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-radius: 200px;
+    position: absolute;
+    top: 67%;
+    left: 43%;
+    transform:translate(-100%,-25%)
+}
+
+.containerbox1 {
+    width: 440px;
+    height: 250px;
+    background-color: #13333B;
+    top: 54%;
+    left: 17%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+.harris {
+    width: 250px;
+    height: 250px;
+}
+.containerbox1 h1
+{
+    font-size: 21px;
+    margin-left: 260px;
+    margin-top: -240px;
+    color: white;
+}
+.containerbox1 p
+{
+    font-size: 10px;
+    margin-left: 260px;
+    color: white;
+    text-decoration: none;
+}
+.containerbox1 .button
+{
+    color: cadetblue;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    margin-left: 300px;
+    margin-top: 53px;
+}
+.containerbox1 .button:hover
+{
+    color: #13333B;
+    background-color: #47B2BA;
+}
+.containerbox2
+{
+    width: 440px;
+    height: 250px;
+    background-color: #13333B;
+    top: 54%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+
+}
+.containerbox2 h1
+{
+    font-size: 21px;
+    margin-left: 260px;
+    margin-top: -240px;
+    color: white;
+}
+.containerbox2 p
+{
+    font-size: 10px;
+    margin-left: 260px;
+    color: white;
+    text-decoration: none;
+}
+.containerbox2 .button
+{
+    color:cadetblue;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    margin-left: 300px;
+    margin-top: 25px;
+}
+.containerbox2 .button:hover
+{
+    color: #13333B;
+    background-color: #47B2BA;
+}
+.jembatan
+{
+    width: 250px;
+    height: 250px;
+}
+.containerbox3
+{
+    width: 440px;
+    height: 250px;
+    background-color: #13333B;
+    top: 54%;
+    left: 83%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+
+}
+.containerbox3 h1
+{
+    font-size: 21px;
+    margin-left: 260px;
+    margin-top: -240px;
+    color: white;
+}
+.containerbox3 p
+{
+    font-size: 10px;
+    margin-left: 260px;
+    color: white;
+    text-decoration: none;
+}
+.containerbox3 .button
+{
+    color:cadetblue;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 20px;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    margin-left: 300px;
+    margin-top: 53px;
+}
+.containerbox3 .button:hover
+{
+    color: #13333B;
+    background-color: #47B2BA;
+}
+.oca
+{
+    width: 250px;
+    height: 250px;
+}
+
+.header{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing:1px;
+    text-align:center;
+}
+
+.header h1 { 
+    Font-size:60px;
+}
+
+.header p {
+    font-size: 30px;
+}
+
+.card-container{
+    display :flex;
+    flex-direction:row;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.halaman-contact {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px);
+    flex-direction: column;
+}
+
+.card{ 
+    background: #13333B;
+    padding: 0 20px;
+    min-width: 320px;
+    max-width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity:60%;
+    color: black;
+    margin: 0 24px;
+}
+
+.card-icon {
+    font-size: 30px !important;
+    background: white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px!important;
+    border-radius : 50%;
+    transition: 0.3s linear;
+}
+
+.card:hover .card-icon{
+    background: none;
+    color:white;
+    transform: scale(1.6);
+}   
+
+.card:hover p {
+    display: block;
+}
+
+.card p{
+    margin-top: 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    display: none;
+    max-height: 0;
+    opacity: 0;
+    transition: 0.3s linear;
+    color:white;
+}
+
+.card:hover p {
+    max-height: 20px;
+    opacity:1;
+}
+
+@media screen and (min-width:1200px){
+    
+}
+
+
+
+

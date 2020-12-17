@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(bg.jpg);
+    background-size: cover;
+}
+
+.loginbox{
+    width: 300px;
+    height: 360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    
+}
+
+.loginbox h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 13px 0;
+}
+
+.textbox{
+    width: 80%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 31px auto;
+    border-bottom: 1px solid aliceblue;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+}
+.textbox input :hover{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+
+.btn{
+    width: 40%;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 90px;
+    border-radius: 50px;
+}
+
+hr{
+    margin-top: 20px;
+    width: 70%;
+    color: white;
+}
+
+.loginbox p{
+    font-size: 14px;
+    margin-top: 220px;
+    text-align: center;
+    
+}
+.loginbox .button{
+    margin-top: -8px;
+    margin-left: 119px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 20px;
+    padding: 6px 12px;
+    box-sizing: border-box;
+    
+}
+.btn2{
+    width: 40%;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 90px;
+    border-radius: 50px;
+}
+
+.loginbox h3 {
+    text-align: center;
+    margin: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
